@@ -1,32 +1,40 @@
-html,
-body {
-    margin: 0;
-    padding: 0;
-    height: 100%;
+.layui-footer {
+    text-align: center;
+    font-size: 12px;
+}
+
+.iconfont {
+    margin-right: 8px;
+}
+
+.layui-icon {
+    margin-right: 8px;
+    margin-left: 20px;
+}
+
+iframe {
     width: 100%;
+    height: 100%;
 }
 
-
-/* 头部区域 */
-
-.layui-header {
-    position: relative;
-    display: block;
-    background-color: #23262E;
+.layui-body {
+    overflow: hidden;
 }
 
-.layui-layout-right {
-    position: absolute!important;
-    right: 0;
-    top: 0;
+a {
+    transition: none !important;
 }
 
-.layui-nav {
-    position: relative;
-    color: #fff;
-    border-radius: 2px;
-    font-size: 0;
-    box-sizing: border-box;
+.userinfo {
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 12px;
+    user-select: none;
+}
+
+.layui-side-scroll .userinfo {
+    border-bottom: 1px solid #282b33;
 }
 
 .layui-nav-img {
@@ -45,22 +53,10 @@ body {
     font-size: 20px;
     color: #fff;
     position: relative;
-    top: 2px;
+    top: 4px;
     margin-right: 10px;
-    background: #009688;
-    border-radius: 50% 50%;
 }
 
-.layui-nav-item i {
-    padding-right: 6px;
-}
-
-
-/*左侧导航区域*/
-
-.layui-side-scroll {
-    height: 60px;
-    width: 190px;
-    line-height: 60px;
-    text-align: center;
+.layui-nav-item a {
+    font-size: 12px;
 }

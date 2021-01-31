@@ -64,13 +64,13 @@ function renderAvatar(user) {
         //3.按需渲染用户的头像
     if (user.user_pic !== null) {
         //3.1渲染图片头像
-        $('.layui-nav-img').attr('src', user.user.user_pic).show()
-        $('.text-avata').hide()
+        $('.layui-nav-img').attr('src', user.user_pic).show()
+        $('.text-avatar').hide()
     } else {
         //3.2 渲染文本头像
         $('.layui-nav-img').hide()
         var first = name[0].toUpperCase()
-        $('.text-avata').html(first).show()
+        $('.text-avatar').html(first).show()
     }
 
 }
